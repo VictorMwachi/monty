@@ -1,5 +1,5 @@
-#ifndef MONTY_H
-#define MONTY_H
+#ifndef _MONTY_H
+#define _MONTY_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -86,4 +86,3 @@ void free_stack(stack_t *head);
 int _atoi(char *s, int* n);
 
 #endif
-
